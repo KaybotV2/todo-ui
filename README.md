@@ -1,6 +1,75 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## User Interface
+
+This [repository](https://github.com/KaybotV2/todo-ui.git) contains the frontend for the Todo app, built using React, Next.js, TypeScript, and Tailwind CSS.
+
+```bash
+#To clone the repository, use the following command:
+
+git clone https://github.com/KaybotV2/todo-ui.git
+
+# Once cloned, navigate to the project folder:
+
+cd todo-ui
+
+# Install the required dependencies using npm:
+
+npm install
+
+# To run the application in development mode:
+
+npm run dev
+```
+
+A serverless To-Do app built with AWS CDK, leveraging Python for backend, and a modern frontend stack of React, Next.js, and TypeScript for a seamless and scalable task management experience.
+![My Todo App](my-todo-app-ui.png)
+
+## API 
+The [/api](https://github.com/KaybotV2/My-Todo-App/tree/main/api) contains the Python FastAPI code.
+
+The [/test](https://github.com/KaybotV2/My-Todo-App/tree/main/test) contains the Pytest integration tests to test your endpoint directly. 
+
+You can run the test like this.
+
+```bash
+pytest
+```
+# API Documentation 
+Welcome to the [FastAPI AWS Documentation](https://lnp5n7ywijpzmt7qegq3xfh7w40utqiq.lambda-url.us-east-1.on.aws/docs#/)! This guide offers a comprehensive overview of the API endpoints available for each CRUD operation, helping you effectively interact with your FastAPI application.
+
+
+## AWS Resources
+The [/todo-aws-resources](https://github.com/KaybotV2/todo-aws-resources) repository  contains the CDK code to deploy all the infrastructure (Lambda function and DynamoDB table) to your AWS account.
+
+## Prerequisites
+
+You must have the following installed and configured on your machine:
+
+- [AWS CLI](https://aws.amazon.com/cli/) 
+- [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+
+
+First, install the node modules.
+
+```bash
+npm install
+```
+
+Then run bootstrap if you never used CDK with your account before.
+
+```bash
+cdk bootstrap
+```
+
+Deploy the stack. 
+
+```bash
+cdk deploy
+```
+
+
+## Developer Getting Started
 
 First, run the development server:
 
