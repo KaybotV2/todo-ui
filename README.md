@@ -23,6 +23,9 @@ npm run dev
 ```
 
 A serverless To-Do app built with AWS CDK, leveraging Python for backend, and a modern frontend stack of React, Next.js, and TypeScript for a seamless and scalable task management experience.
+
+Feel free to check out our [production-ready app](https://todo-b5fipiygg-kaybotv2s-projects.vercel.app/) and explore its features! Just visit this link and start playing around. Enjoy! 
+
 ![My Todo App](my-todo-app-ui.png)
 
 ## API 
